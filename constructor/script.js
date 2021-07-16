@@ -75,9 +75,9 @@ button.addEventListener('click',function(){
     this.dateOfBirth= new Date(dob);
     this.calculateAge = function() {
             
-              const difference  = Date.now() - this.dateOfBirth.getTime()
-              const ageDate = new Date(difference)
-              return ageDate.getUTCFullYear() - 1970
+    const difference  = Date.now() - this.dateOfBirth.getTime()
+    const ageDate = new Date(difference)
+    return ageDate.getUTCFullYear() - 1970
           }
   }
   
