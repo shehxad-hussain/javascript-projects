@@ -41,14 +41,18 @@ button.addEventListener('click', function() {
         this.birthday = new Date(dob);
 
         Person.prototype.calculateAge = function() {
+            
             const difference  = Date.now() - this.birthday.getTime()
             const ageDate = new Date(difference)
             return ageDate.getUTCFullYear() - 1970
+            
         }
-
+   
+       
         
     }
-
+   
+   
     let inputname = fname.value;
     let inputnamee = lname.value;
     let inputdob= dob.value;
@@ -59,19 +63,15 @@ button.addEventListener('click', function() {
 })
 
 
-
-// function Person(firstName, lastname, dob) {
-//     this.firstName = firstName,
-//     this.lastname = lastname,
-//     this.birthday = new Date(dob)
-// }
-
-
-
 // Person.prototype.greeting = function() {
-//     return `Hi ${this.firstName} ${this.lastname} Welcome to our website`
+//     return `Hi ${this.firstName} ${this.lastname} Welcome`
 // }
 
-// const user1 = new Person('John', 'Doe', '26 june 1991')
+// const devOne = new Person('shehzad', 'ali')
 
-// console.log(user1.calculateAge())
+// console.log(devOne)
+
+
+
+
+    
