@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Border Radius</h1>
+        <div class="generator-wrapper">
+            <div class="shape"></div>
+            <input type="checkbox" id="left" class="slider"></input>
+            <input type="checkbox" id="top" class="slider"></input>
+            <input type="checkbox" id="right" class="slider"></input>
+            <input type="checkbox" id="bottom" class="slider"></input>
+        </div>
+        <input type="range" id="ranger" min="0" max="100" value="0">
+        <div class="output-wrapper">
+            <p class="property-name">border-radius</p>
+            <div class="output">
+                <div class="code">20% 80% 60% 40% / 60% 50% 50% 40%</div>
+                <button class="copy">Copy</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
