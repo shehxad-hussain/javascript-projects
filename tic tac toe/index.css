@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    background-color: slategray;
+}
+
+header {
+    margin-right: 40px;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+header button {
+    font-size: 20px;
+    background-color: rgb(18, 153, 0);
+    box-shadow:  3px 3px 3px rgb(0, 87, 15);
+    margin-right: 20px;
+    border: none;
+}
+
+header p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 360px;
+}
+
+.board:hover {
+    cursor: pointer;
+}
+
+.cell {
+    border: solid 2px;
+    flex-basis: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#status {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+#reset {
+    background-color: rgb(199, 2, 2);
+    box-shadow:  3px 3px 3px rgb(0, 0, 0);
+}
